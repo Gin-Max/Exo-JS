@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS - Calcul IMC</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Calcul de l'<abbr title="Indice de masse corporelle">IMC</abbr></h1>
+      <p>Indiquez votre <strong>taille</strong> (en cm) et votre <strong>poids</strong> (en kg) pour calculer votre <strong>Indice de Masse Corporelle</strong>.</p>
+      <form>
+        <label>Votre taille (en cm)</label>
+        <input type="number" id="taille" name="taille" min="90" max="200" value="" placeholder="Votre taille">
+        <label>Votre poids (en kg)</label>
+        <input type="number" id="poids" name="poids" min="10" max="200" value="" placeholder="Votre poids">
+        <button id="btnCalc">Calcul IMC</button>
+      </form>
+      <div class="result">
+        <h2>Votre résultat</h2>
+        <p id="imc">Votre IMC est de <span></span></p>
+        <p id="oms">Selon la classification de l'<abbr title="Organisation mondiale de la santé">OMS</abbr>, l'interprétation de votre IMC est <span></span>.</p>
+      </div>
+      <div id="erreur"></div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

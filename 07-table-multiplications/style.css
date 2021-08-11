@@ -1,0 +1,42 @@
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+table {
+  max-width: 90%;
+  margin: 0 auto 20px;
+}
+
+caption {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+table, tr, th, td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 6px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #CCC;
+}
+
+td {
+  background-color: #FFF;
+}
+
+td.same {
+  background-color: #0C0;
+}
+
+.erreur {
+  color: red;
+}

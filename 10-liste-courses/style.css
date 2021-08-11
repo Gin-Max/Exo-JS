@@ -1,0 +1,56 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 900px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+main {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.btn {
+  border: 0;
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+
+#btnAjout {
+  background-color: green;
+  color: white;
+}
+
+#btnTri {
+  background-color: blue;
+  color: white;
+}
+
+#btnSupprime {
+  background-color: orange;
+  color: white;
+}
+
+#btnVider {
+  background-color: red;
+  color: white;
+}
+
+#debug {
+  font-style: italic;
+  color: fuchsia;
+}
+
+.legende {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
